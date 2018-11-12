@@ -19,7 +19,7 @@ The TensorFlow Inference Interface is also available as a
 (see the tensorflow-android directory) and can be included quite simply in your
 android project with a couple of lines in the project's `build.gradle` file:
 
-```
+`````
 allprojects {
     repositories {
         jcenter()
