@@ -26,6 +26,7 @@ die() {
   exit 1
 }
 
+
 echo "Collecting system information..."
 
 OUTPUT_FILE=tf_env.txt
@@ -50,6 +51,7 @@ python_bin_path=$(which python || which python3 || die "Cannot find Python binar
   else
     echo "No"
   fi
+  
   
   echo
   echo '== compiler ====================================================='
